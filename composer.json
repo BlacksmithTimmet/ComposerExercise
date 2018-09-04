@@ -1,0 +1,13 @@
+{
+	"name": "BlacksmithTimmet/ComposerExercise",
+	"description": "First standalone with Composer",
+	"authors": 
+	{
+		"name": "Frank Berdel",
+		"email": "empty"
+	}
+	"autoload":
+	{
+		"psr-4": "BlacksmithTimmet\\ComposerExercis\\": "Classes/"
+	}
+}
