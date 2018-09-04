@@ -6,7 +6,7 @@
  * Time: 15:53
  */
 
-namespace BlacksmithTimmet\ComposerExercise\Classes;
+namespace BlacksmithTimmet\ComposerExercise\Exercise01\Classes;
 
 
 class exercise01
