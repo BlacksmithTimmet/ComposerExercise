@@ -8,6 +8,6 @@
 	},
 	"autoload":
 	{
-		"psr-4": {"BlacksmithTimmet\\ComposerExercise\\": "Exercise01/Classes/"}
+		"psr-4": {"BlacksmithTimmet\\ComposerExercise\\": "Exercise01/"}
 	}
 }
