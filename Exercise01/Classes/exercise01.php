@@ -8,7 +8,37 @@
 
 namespace BlacksmithTimmet\ComposerExercise\Classes;
 
-public function helloComposer(){
-    echo "Hello Composer";
-    return true;
+
+class exercise01
+{
+
+    private $output;
+
+    /**
+     * @return mixed
+     */
+    public function getOutput()
+    {
+        return $this->output;
+    }
+
+    /**
+     * @param mixed $output
+     */
+    public function setOutput($output)
+    {
+        $this->output = $output;
+    }
+
+    function __construct() {
+        $this->setOutput("Im BaseClass Konstruktor\n");
+        echo $this->getOutput();
+    }
+
+
+
+    public function helloComposer(){
+        $this->setOutput("Hello Composer");
+        echo $this->getOutput();
+    }
 }
